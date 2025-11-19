@@ -773,6 +773,12 @@ var enchant = {
          "arp": 25,
          "phase": 7,
       },
+	   {
+         "id": 103,
+         "name": "Obsidian Belt Buckle",
+         "str": 10,
+         "phase": 7,
+      },
       {
          "id": 61782,
          "name": "Mithril",

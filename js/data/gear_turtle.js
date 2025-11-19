@@ -12,6 +12,19 @@ var gear = {
       "i": 66,
       "id": 47240
     },
+	{
+      "name": "Forgotten Hide Helm",
+      "crit": 2,
+      "str": 35,
+	  "agi": 22,
+      "sta": 22,
+      "ac": 366,
+      "source": "UpperKara",
+      "phase": 7,
+      "q": 4,
+      "i": 92,
+      "id": 55119
+    },
     {
       "name": "Crown of Wrath",
       "str": 32,
@@ -46,6 +59,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 92,
       "id": 47270
     },
 	  {
@@ -59,6 +73,7 @@ var gear = {
       "ac": 834,
       "phase": 7,
       "q": 4,
+	  "i": 92,
       "id": 55113
     },
     {
@@ -119,6 +134,19 @@ var gear = {
       "q": 3,
       "i": 58,
       "id": 60573
+    },
+	{
+      "name": "Crown of the Wildpack",
+      "source": "UpperKara",
+      "ac": 449,
+      "sta": 23,
+	  "agi": 40,
+      "hit": 1,
+      "haste": 2,
+      "phase": 7,
+      "q": 4,
+      "i": 88,
+      "id": 55083
     },
     {
       "name": "Towerforge Crown",
@@ -831,7 +859,17 @@ var gear = {
 	    "arp": 50,
       "phase": 7,
       "q": 4,
+	  "i": 96,
       "id": 47275
+	 {
+      "name": "Choker of Terminal Arcanum",
+      "source": "UpperKara",
+      "agi": 15,
+      "haste": 2,
+      "phase": 7,
+      "q": 4,
+	  "i": 88,
+      "id": 55507
     },
     {
       "name": "Bixxle's Necklace of Mastery",
@@ -1182,6 +1220,33 @@ var gear = {
       "i": 66,
       "id": 47241
     },
+	{
+      "name": "Taut Dragonhide Shoulderpads",
+      "sta": 18,
+      "ac": 170,
+      "ap": 46,
+	  "skill": 5,
+      "type": "Mace",
+      "phase": 7,
+      "source": "BWL",
+      "q": 4,
+      "i": 77,
+      "id": 19389
+    },
+	{
+      "name": "Black Brood Pauldrons",
+      "sta": 12,
+	  "agi": 17,
+      "str": 14,
+      "ac": 357,
+	  "skill": 7,
+      "type": "Sword"
+      "phase": 7,
+      "source": "BWL",
+      "q": 4,
+      "i": 75,
+      "id": 19373
+    },
     {
       "name": "Pauldrons of Wrath",
       "str": 21,
@@ -1217,6 +1282,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 92,
       "id": 47271
     },
     {
@@ -1229,6 +1295,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 88,
       "id": 55108
     },
     {
@@ -1797,6 +1864,22 @@ var gear = {
       "i": 65,
       "id": 60488
     },
+	{
+      "name": "Wing of the Time-Lord",
+      "haste": 1,
+	  "str": 11,
+	  "agi": 11,
+	  "sta": 8,
+	  "source": "Dungeon",
+      "phase": "1",
+      "q": 4,
+      "i": 65,
+      "id": 61010,
+      "proc": {
+        "chance": 1,
+        "extra": 1
+      }
+    },
     {
       "name": "Shroud of Haunted Torment",
       "haste": 2,
@@ -1935,19 +2018,6 @@ var gear = {
       "id": 83486
     },
     {
-      "name": "Wing of the Time-Lord",
-      "sta": 8,
-      "str": 11,
-      "agi": 11,
-      "haste": 1,
-      "ac": 50,
-      "source": "Other",
-      "phase": 7,
-      "q": 4,
-      "i": 65,
-      "id": 61010
-    },
-    {
       "name": "Quel'dorei/Revantusk Honored Cloak",
       "str": 9,
       "agi": 9,
@@ -2054,6 +2124,31 @@ var gear = {
       "i": 88,
       "id": 21710
     },
+   {
+      "name": "Felforged Nathrezan Veil",
+      "hit": 1,
+	  "str": 15,
+      "sta": 15,
+      "agi": 29,
+      "ac": 74,
+      "source": "UpperKara",
+      "phase": 7,
+      "q": 4,
+      "i": 96,
+      "id": 55515
+    },
+	{
+      "name": "Cloak of the Bloody Ravager",
+      "haste": 2,
+	  "str": 18,
+      "sta": 14,
+      "ac": 66,
+      "source": "UpperKara",
+      "phase": 7,
+      "q": 4,
+      "i": 88,
+      "id": 55095
+    },
     {
       "name": "Cloak of the Golden Hive",
       "str": 13,
@@ -2094,8 +2189,9 @@ var gear = {
     {
       "name": "Cloak of the Shrouded Mists",
       "sta": 12,
-      "agi": 22,
-      "ac": 57,
+      "agi": 26,
+      "ac": 58,
+	  "haste": 1,
       "resist": {
         "fire": 6,
         "nature": 6
@@ -2327,6 +2423,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 96,
       "id": 47272
     },
     {
@@ -2935,6 +3032,33 @@ var gear = {
       "i": 78,
       "id": 23226
     },
+	{
+      "name": "Ravenkeeper's Frenzied Embrace",
+      "crit": 2,
+      "str": 20,
+      "agi": 45,
+      "ac": 253,
+      "source": "UpperKara",
+      "phase": 7,
+      "q": 4,
+      "i": 88,
+      "id": 55079
+    },
+	 {
+      "name": "Tunic of Demonic Deception",
+      "arp": 75,
+	  "crit": 2,
+	  "hit": 1,
+      "str": 22,
+      "sta": 21,
+	  "agi": 34,
+      "ac": 271,
+      "source": "UpperKara",
+      "phase": 7,
+      "q": 4,
+      "i": 96,
+      "id": 55513
+    },
     {
       "name": "Malfurion's Blessed Bulwark",
       "str": 40,
@@ -3498,7 +3622,7 @@ var gear = {
 	{
       "name": "Netherwrought Bracers",
       "str": 24,
-	    "agi": 20,
+	  "agi": 20,
       "ac": 459,
       "hit": 1,
       "resist": {
@@ -3507,7 +3631,21 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 96,
       "id": 55356
+    },
+	{
+      "name": "Bands of the Surgebreaker",
+      "hit": 1,
+	  "crit": 1,
+	  "sta": 25,
+      "agi": 20,
+      "ac": 211,
+      "phase": 7,
+      "source": "UpperKara",
+      "q": 4,
+	  "i": 88,
+      "id": 55089
     },
     {
       "name": "Gordok Bracers of Power",
@@ -3676,6 +3814,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 92,
       "id": 55125
     },
     {
@@ -3694,6 +3833,7 @@ var gear = {
       "phase": 7,
       "source": "AQ40",
       "q": 4,
+	  "i": 81,
       "id": 55553
     },
     {
@@ -3712,22 +3852,39 @@ var gear = {
       "phase": 7,
       "source": "AQ40",
       "q": 4,
+	  "i": 81,
       "id": 55554
+    },
+	  {
+      "name": "Toughened Silithid Hide Gloves",
+      "agi": 15,
+      "sta": 18,
+	  "str": 11,
+      "ac": 182,
+      "skill": 5,
+      "type": "Sword"
+      "phase": 7,
+      "source": "AQ20",
+      "q": 3,
+	  "i": 71,
+      "id": 21501
     },
 	{
       "name": "Dragonclaw Gauntlets",
       "source": "UpperKara",
       "str": 28,
-	    "sta": 18,
+	  "sta": 18,
+	  "agi": 10,
       "hit": 1,
       "haste": 1,
       "ac": 615,
       "resist": {
-        "fire": 15
+        "fire": 10
       },
       "phase": 7,
       "q": 4,
-      "id": 55103 //fix id 
+	  "i": 88,
+      "id": 55088
     },
     {
       "name": "Blooddrenched Grips",
@@ -4159,7 +4316,7 @@ var gear = {
       "crit": 1,
       "sta": 6,
       "ap": 54,
-      "ac": 488,
+      "ac": 275,
       "skill": 7,
       "type": "2H Axe",
       "source": "MC",
@@ -4417,12 +4574,13 @@ var gear = {
     {
       "name": "Sash of the Grand Betrayal",
       "sta": 16,
-      "ap": 52,
-      "crit": 1,
+      "ap": 44,
+      "crit": 2,
       "haste": 2,
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 96,
       "id": 55357
     },
 	  {
@@ -4435,7 +4593,8 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
-      "id": 69699
+	  "i": 92,
+      "id": 55506
     },
     {
       "name": "Marksman's Girdle",
@@ -4989,9 +5148,11 @@ var gear = {
       "name": "Ossirian's Binding",
       "crit": 1,
       "hit": 1,
-      "sta": 19,
-      "agi": 20,
+      "sta": 16,
+      "agi": 16,
       "ac": 258,
+	  "skill": 6,
+      "type": "Polearm",
       "source": "AQ20",
       "phase": 5,
       "q": 4,
@@ -5122,6 +5283,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 92,
       "id": 47273
     },
     {
@@ -5157,10 +5319,11 @@ var gear = {
       "name": "Slime-coated Leggings",
       "ac": 432,
       "sta": 28,
+	  "agi": 27,
+	  "crit": 1,
       "resist": {
         "nature": 28,
       },
-      "ap": 40,
       "skill": 5,
       "type": "Polearm",
       "source": "AQ40",
@@ -5412,6 +5575,20 @@ var gear = {
       "q": 4,
       "i": 78,
       "id": 61239
+    },
+	 {
+      "name": "Earthquake Leggings",
+      "agi": 30,
+      "str": 22,
+      "skill": 6,
+      "type": "2H Axe",
+      "crit": 1,
+      "ac": 506,
+      "source": "UpperKara",
+      "phase": 7,
+      "q": 4,
+      "i": 78,
+      "id": 55122
     },
     {
       "name": "Flamewrath Leggings",
@@ -5709,6 +5886,18 @@ var gear = {
       "i": 83,
       "id": 23071
     },
+	 {
+      "name": "Legwraps of Meticulous Planning",
+      "str": 31,
+      "sta": 25,
+      "agi": 26,
+      "ac": 271,
+      "source": "UpperKara",
+      "phase": 7,
+      "q": 4,
+      "i": 88,
+      "id": 55109
+    },
     {
       "name": "Legguards of the Fallen Crusader",
       "str": 35,
@@ -5888,6 +6077,20 @@ var gear = {
       "i": 66,
       "id": 47247
     },
+	{
+      "name": "Ash-Forged Greaves",
+      "str": 16,
+	  "sta": 7,
+      "agi": 15,
+      "ac": 502,
+	  "skill": 5,
+      "type": "Sword"
+      "phase": 1,
+      "source": "MC",
+      "q": 4,
+      "i": 66,
+      "id": 58215
+    },
     {
       "name": "Sabatons of Wrath",
       "str": 21,
@@ -5924,6 +6127,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 88,
       "id": 47274
     },
     {
@@ -5938,6 +6142,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 88,
       "id": 55092
     },
     {
@@ -5950,6 +6155,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 88,
       "id": 55104
     },
     {
@@ -6552,6 +6758,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 96,
       "id": 55353
     },
     {
@@ -6565,7 +6772,8 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
-      "id": 55666
+	  "i": 83,
+      "id": 55508
     },
     {
       "name": "Loop of Hardened Slate",
@@ -6574,6 +6782,7 @@ var gear = {
       "source": "UpperKara",
       "q": 4,
       "phase": 7,
+	  "i": 92,
       "id": 55123
     },
     {
@@ -7037,6 +7246,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 96,
       "id": 55353
     },
     {
@@ -7050,7 +7260,8 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
-      "id": 55666
+	  "i": 83,
+      "id": 55508
     },
     {
       "name": "Loop of Hardened Slate",
@@ -7059,6 +7270,7 @@ var gear = {
       "source": "UpperKara",
       "q": 4,
       "phase": 7,
+	  "i": 92,
       "id": 55123
     },
     {
@@ -8133,6 +8345,7 @@ var gear = {
       "phase": 7,
       "source": "UpperKara",
       "q": 4,
+	  "i": 92,
       "id": 55510
     },
     {
@@ -8419,6 +8632,17 @@ var gear = {
       "q": 4,
       "i": 72,
       "id": 21459
+    },
+	{
+      "name": "Phase-shifting Crossbow",
+      "hit": 1,
+	  "crit": 1,
+      "str": 9,
+      "source": "UpperKara",
+      "phase": "7",
+      "q": 4,
+      "i": 88,
+      "id": 55096
     },
     {
       "name": "Fahrad's Reloading Repeater",
@@ -9479,9 +9703,9 @@ var gear = {
       "name": "Core Hound Tooth",
       "crit": 1,
       "sta": 9,
-      "ap": 20,
-      "mindmg": 57,
-      "maxdmg": 107,
+      "ap": 22,
+      "mindmg": 59,
+      "maxdmg": 109,
       "speed": 1.6,
       "type": "Dagger",
       "source": "MC",
@@ -10622,6 +10846,7 @@ var gear = {
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
+	  "i": 88,
       "id": 55080
     },
     {
@@ -10637,6 +10862,7 @@ var gear = {
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
+	  "i": 92,
       "id": 55115
     },
     {
@@ -10665,6 +10891,7 @@ var gear = {
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
+	  "i": 92,
       "id": 55347
     },
     {
@@ -10677,6 +10904,7 @@ var gear = {
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
+	  "i": 88,
       "id": 55276
     }
   ],
@@ -10708,6 +10936,7 @@ var gear = {
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
+	  "i": 88,
       "id": 55080
     },
     {
@@ -10723,6 +10952,7 @@ var gear = {
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
+	  "i": 92,
       "id": 55115
     },
     {
@@ -11823,6 +12053,7 @@ var gear = {
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
+	  "i": 83,
       "id": 55133
     },
     {
@@ -12462,11 +12693,28 @@ var gear = {
       "mindmg": 273,
       "maxdmg": 419,
       "speed": 3.7,
+	  "i": 88,
       "id": 55100,
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
       "type": "Mace"
+    },
+	 {
+      "name": "Raka'shishi, Spear of the Adrift Hunt",
+      "agi": 31,
+	  "sta": 41,
+      "mindmg": 277,
+      "maxdmg": 423,
+      "speed": 3.7,
+      "id": 55116,
+	  "i": 92,
+      "source": "UpperKara",
+	  "skill": 5,
+      "type": "Polearm",
+      "phase": 7,
+      "q": 4,
+      "type": "Polearm"
     },
     {
       "name": "Shar'tateth, the Shattered Edge",
@@ -12478,6 +12726,7 @@ var gear = {
       "maxdmg": 453,
       "speed": 3.8,
       "id": 55127,
+	   "i": 92,
       "source": "UpperKara",
       "phase": 7,
       "q": 4,
@@ -13047,9 +13296,9 @@ var gear = {
     },
     {
       "name": "Spinal Reaper",
-      "ap": 34,
-      "mindmg": 203,
-      "maxdmg": 305,
+      "ap": 36,
+      "mindmg": 206,
+      "maxdmg": 310,
       "speed": 3.4,
       "id": 17104,
       "source": "MC",
